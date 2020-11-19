@@ -27,7 +27,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc8a8e6-a17b-4d83-a750-cfb735ef3714" name="Default Changelist" comment="" />
+    <list default="true" id="8cc8a8e6-a17b-4d83-a750-cfb735ef3714" name="Default Changelist" comment="Available Groups Design">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hci/geeks/AvailableGroupsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hci/geeks/AvailableGroupsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_available_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_available_groups.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +44,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -177,14 +190,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Available Groups Design" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="756" y="294" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1605737920566">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="756" y="294" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1280.777@0.23.1280.777" timestamp="1605737920566" />
+    <state x="177" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1605737949045">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="177" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1605737949045" />
+    <state x="228" y="173" key="AndroidCreateResourceFileDialog" timestamp="1605776341070">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="228" y="173" key="AndroidCreateResourceFileDialog/0.23.1280.777@0.23.1280.777" timestamp="1605776341070" />
     <state x="462" y="196" key="AndroidCreateXmlResourceDialog" timestamp="1605736999184">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="462" y="196" key="AndroidCreateXmlResourceDialog/0.23.1280.777@0.23.1280.777" timestamp="1605736999184" />
-    <state x="157" y="23" key="CommitChangelistDialog2" timestamp="1605737045290">
+    <state x="157" y="23" key="CommitChangelistDialog2" timestamp="1605737286713">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="157" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1605737045290" />
+    <state x="157" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1605737286713" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605237502479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
