@@ -28,11 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cc8a8e6-a17b-4d83-a750-cfb735ef3714" name="Default Changelist" comment="Available Groups Design">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/hci/geeks/AvailableGroupsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hci/geeks/AvailableGroupsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_available_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_available_groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hci/geeks/GroupDetails.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +197,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="177" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1605737949045" />
+    <state x="424" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605778461907">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="424" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1605778461907" />
     <state x="228" y="173" key="AndroidCreateResourceFileDialog" timestamp="1605776341070">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -223,5 +226,9 @@
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605237247924" />
     <state x="368" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605737194717" />
+    <state x="631" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1605778351914">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="631" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1605778351914" />
   </component>
 </project>
