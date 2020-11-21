@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dialogSFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/dialogLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:inputType="textCapWords"
+        android:layout_below="@id/dialogSFirstName"/>
+
+    <EditText
+        android:id="@+id/dialogEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textCapWords"
+        android:layout_below="@id/dialogLastName"/>
+
+    <EditText
+        android:id="@+id/dialogSUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textCapWords"
+        android:layout_below="@id/dialogEmail"/>
+
+    <EditText
+        android:id="@+id/dialogSPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textCapWords"
+        android:layout_below="@id/dialogSUsername"/>
+
+</RelativeLayout>

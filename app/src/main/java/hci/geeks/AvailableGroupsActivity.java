@@ -37,10 +37,10 @@ public class AvailableGroupsActivity extends AppCompatActivity {
             groups.newList();
         }
 
-       // Intent intent = getIntent();
+        Intent intent = getIntent();
 
-      // groupId = intent.getIntExtra("Id", 0);
-       // name = intent.getStringExtra("Name");
+        groupId = intent.getIntExtra("Id", 0);
+        name = intent.getStringExtra("Name");
 
         groupsList = findViewById(R.id.groupsListView);
         registerForContextMenu(groupsList);
@@ -75,8 +75,7 @@ public class AvailableGroupsActivity extends AppCompatActivity {
     }
 
     public void createGroupButtonClicked(View view){
-       // Intent intent = new Intent(this, AppointmentsActivity.class); //Kevin's class
-       // startActivity(intent);
+        Intent intent = new Intent(this, CreateGroupActivity.class);
+        startActivity(intent);
     }
-
 }
