@@ -31,13 +31,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cc8a8e6-a17b-4d83-a750-cfb735ef3714" name="Default Changelist" comment="Available Groups Design">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_12_2020_7_56_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_12_2020_7_56_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/hci/geeks/AvailableGroupsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hci/geeks/AvailableGroupsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hci/geeks/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hci/geeks/Dialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/hci/geeks/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hci/geeks/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_available_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_available_groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,22 +236,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605237502479" />
-    <state width="1238" height="148" key="GridCell.Tab.0.bottom" timestamp="1605912067529">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1605979077272">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1605912067529" />
-    <state width="1238" height="148" key="GridCell.Tab.0.center" timestamp="1605912067528">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1605979077272" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1605979077271">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1605912067528" />
-    <state width="1238" height="148" key="GridCell.Tab.0.left" timestamp="1605912067527">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1605979077271" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1605979077270">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1605912067527" />
-    <state width="1238" height="148" key="GridCell.Tab.0.right" timestamp="1605912067528">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1605979077270" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1605979077271">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1605912067528" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1605979077271" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1605232832003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

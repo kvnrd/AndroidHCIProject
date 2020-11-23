@@ -56,6 +56,7 @@ public class Dialog extends AppCompatDialogFragment {
                             try{
                                 String username = usernameText.getText().toString();
                                 String password = passwordText.getText().toString();
+                                listener.logIn(username, password);
                             } catch(Exception e){
                                 Toast.makeText(getActivity(), "Fill Out All the Fields!", Toast.LENGTH_SHORT).show();
                             }
@@ -87,6 +88,7 @@ public class Dialog extends AppCompatDialogFragment {
                                 String email = emailText.getText().toString();
                                 String usernameS = usernameTextS.getText().toString();
                                 String passwordS = passwordTextS.getText().toString();
+                                listener.signUp(firstName, lastName, email, usernameS, passwordS);
                             } catch(Exception e){
                                 Toast.makeText(getActivity(), "Fill Out All the Fields!", Toast.LENGTH_SHORT).show();
                             }

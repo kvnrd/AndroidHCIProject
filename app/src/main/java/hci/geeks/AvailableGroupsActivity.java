@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -20,7 +21,8 @@ public class AvailableGroupsActivity extends AppCompatActivity {
     GroupsDatabaseHelper db;
     ListView groupsList;
     GroupsListAdapter adapter;
-    TextView groupName;
+    TextView createGroup;
+    Button createGroupButton;
     int groupId;
     String name;
     //Group group;
@@ -30,20 +32,22 @@ public class AvailableGroupsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setTitle("Geeks");
         setContentView(R.layout.activity_available_groups);
-        groupName = findViewById(R.id.groupName);
+        createGroup = findViewById(R.id.creategroupTextview);
+        createGroupButton = findViewById(R.id.createGroupButton);
         db = new GroupsDatabaseHelper(this);
         groups.setGroups(db.allGroups());
+
         if(groups.getGroups() == null){
             groups.newList();
         }
 
-        Intent intent = getIntent();
+      //  Intent intent = getIntent();
 
-        groupId = intent.getIntExtra("Id", 0);
-        name = intent.getStringExtra("Name");
+       // groupId = intent.getIntExtra("Id", 0);
+        //name = intent.getStringExtra("Name");
 
         groupsList = findViewById(R.id.groupsListView);
-        registerForContextMenu(groupsList);
+        //registerForContextMenu(groupsList);
         adapter = new GroupsListAdapter(this, 0, groups.getGroups());
         groupsList.setAdapter(adapter);
     }

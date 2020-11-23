@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements Dialog.DialogList
 
     UsersDatabaseHelper db;
 
-    UsersManager users;
+    UsersManager users = new UsersManager();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements Dialog.DialogList
     @Override
     public void logIn(String username, String password) {
         if(db.checkUser(username, password)){
+            Toast.makeText(this, "Log In Succesful!", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, AvailableGroupsActivity.class);
             startActivity(intent);
         }
