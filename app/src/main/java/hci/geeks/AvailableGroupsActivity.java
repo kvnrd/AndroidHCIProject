@@ -72,6 +72,7 @@ public class AvailableGroupsActivity extends AppCompatActivity {
                     .setMessage("Are you sure you want to log out?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
+                            logout();
                             finish();
                         }})
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {
@@ -202,6 +203,10 @@ public class AvailableGroupsActivity extends AppCompatActivity {
         Toast.makeText(this, "Deletion Cancelled!", Toast.LENGTH_SHORT).show();
     }
 
+    public void logout(){
+        Toast.makeText(this, "Log Out!", Toast.LENGTH_SHORT).show();
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
@@ -211,22 +216,23 @@ public class AvailableGroupsActivity extends AppCompatActivity {
             String subject = data.getStringExtra("Subject");
             String privacy = data.getStringExtra("Privacy");
             int members = data.getIntExtra("Members", 0);
-
-            Group group = new Group(name, subject, privacy, members);
-            group.setId(groups.getGroups().size());
-            boolean status = db.addGroup(group);
-            if(status){
-                Toast.makeText(this, "Group Created Successfully!", Toast.LENGTH_SHORT).show();
-                groups.addGroup(group);
-                adapter = new GroupsListAdapter(this, 0, groups.getGroups());
-                groupsList.setAdapter(adapter);
+            if(name.equals("")){
+                Toast.makeText(this, "Operation Canceled!", Toast.LENGTH_SHORT).show();
             }
             else{
-                Toast.makeText(this, "Group Creation Failed!", Toast.LENGTH_SHORT).show();
+                Group group = new Group(name, subject, privacy, members);
+                group.setId(groups.getGroups().size());
+                boolean status = db.addGroup(group);
+                if(status){
+                    Toast.makeText(this, "Group Created Successfully!", Toast.LENGTH_SHORT).show();
+                    groups.addGroup(group);
+                    adapter = new GroupsListAdapter(this, 0, groups.getGroups());
+                    groupsList.setAdapter(adapter);
+                }
+                else{
+                    Toast.makeText(this, "Group Creation Failed!", Toast.LENGTH_SHORT).show();
+                }
             }
-        }
-        if(requestCode==3) {
-            Toast.makeText(this, "Operation Canceled!", Toast.LENGTH_SHORT).show();
         }
     }
 }
