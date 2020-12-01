@@ -20,6 +20,51 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/groupNameView"/>
 
+        <TextView
+            android:id="@+id/groupSubjectView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject: "
+            android:textStyle="bold"
+            android:layout_below="@id/groupNameView"/>
+
+        <TextView
+            android:id="@+id/groupSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupName"
+            android:layout_toRightOf="@id/groupSubjectView"/>
+
+        <TextView
+            android:id="@+id/groupMembersView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Members: "
+            android:textStyle="bold"
+            android:layout_below="@id/groupSubjectView"/>
+
+        <TextView
+            android:id="@+id/groupMembers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupSubject"
+            android:layout_toRightOf="@id/groupMembersView"/>
+
+        <TextView
+            android:id="@+id/groupPrivacyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy: "
+            android:textStyle="bold"
+            android:layout_below="@id/groupMembersView"/>
+
+        <TextView
+            android:id="@+id/groupPrivacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupMembers"
+            android:layout_toRightOf="@id/groupPrivacyView"/>
+
     </RelativeLayout>
 
 </LinearLayout>

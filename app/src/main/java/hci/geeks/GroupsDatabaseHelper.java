@@ -11,13 +11,16 @@ import java.util.ArrayList;
 public class GroupsDatabaseHelper extends SQLiteOpenHelper {
 
     // Variables for Database
-    private static final int DB_VERSION = 1;
+    private static final int DB_VERSION = 2;
     private static final String DB_NAME = "groupsDB";
     private static final String GROUPS_TABLE = "groups";
 
     // Table columns
     private static final String KEY_ID = "_id";
     private static final String KEY_NAME = "name";
+    private static final String KEY_SUBJECT = "subject";
+    private static final String KEY_PRIVACY = "privacy";
+    private static final String KEY_MEMBERS = "members";
 
 
     // Database Constructor
@@ -28,7 +31,7 @@ public class GroupsDatabaseHelper extends SQLiteOpenHelper {
     // Creates table
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table "+GROUPS_TABLE+"(_id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT)");
+        db.execSQL("create table "+GROUPS_TABLE+"(_id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT,subject TEXT,privacy TEXT,members INTEGER)");
     }
 
     // Upgrades table
@@ -43,6 +46,9 @@ public class GroupsDatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put(KEY_NAME, group.getName());
+        values.put(KEY_SUBJECT, group.getSubject());
+        values.put(KEY_PRIVACY, group.getPrivacy());
+        values.put(KEY_MEMBERS, group.getMembers());
         long id = db.insert(GROUPS_TABLE, null, values);
         group.setId((int) id);
         db.close();
@@ -65,7 +71,10 @@ public class GroupsDatabaseHelper extends SQLiteOpenHelper {
             do{
                 int id = cursor.getInt(0);
                 String name = cursor.getString(1);
-                Group group = new Group(id, name);
+                String subject = cursor.getString(2);
+                String privacy = cursor.getString(3);
+                int members = cursor.getInt(4);
+                Group group = new Group(id, name, subject, privacy, members);
                 groups.add(group);
             } while (cursor.moveToNext());
         }
@@ -91,6 +100,9 @@ public class GroupsDatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put(KEY_NAME, group.getName());
+        values.put(KEY_SUBJECT, group.getSubject());
+        values.put(KEY_PRIVACY, group.getPrivacy());
+        values.put(KEY_MEMBERS, group.getMembers());
         db.update(GROUPS_TABLE, values,KEY_ID + " = ?", new String[]{String.valueOf(group.getId())});
         db.close();
     }

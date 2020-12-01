@@ -18,7 +18,7 @@ public class GroupsManager {
         return groups;
     }
 
-    public Group getGroups(int index){
+    public Group getGroup(int index){
         return groups.get(index);
     }
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#999DA0"
-    tools:context=".CreateGroup">
+    tools:context=".CreateGroupActivity">
 
     <TextView
         android:id="@+id/creategroupTextview"
@@ -32,6 +32,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/creategroupTextview"
         app:layout_constraintVertical_bias="0.041" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputSubjectEditText"
+        android:layout_width="256dp"
+        android:layout_height="45dp"
+        android:hint="Enter Course Subject"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputGroupEditText"
+        app:layout_constraintVertical_bias="0.136" />
 
     <Button
         android:id="@+id/createButton"
@@ -67,7 +79,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputGroupEditText"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintTop_toBottomOf="@+id/inputSubjectEditText"
+        app:layout_constraintVertical_bias="0.301" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
